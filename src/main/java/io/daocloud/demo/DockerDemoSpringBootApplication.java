@@ -1,4 +1,4 @@
-package io.daocloud.demo;
+！package io.daocloud.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -15,6 +15,6 @@ public class DockerDemoSpringBootApplication {
 
     @RequestMapping("")
     public String hello(){
-        return "Hello! Docker!";
+        return "Hello! Docker!!";
     }
 }
